@@ -10,7 +10,7 @@ screen.log.write("Unlimited Mach Loop finish loaded");
 
 var root = cmdarg();
 var rootindex = root.getIndex();
-var markerPath = "/ai/models/aircraft["~ rootindex ~"]/";
+var markerPath = "/ai/models/ship["~ rootindex ~"]/";
 
 var greenFlash = func {
 	settimer(func{interpolate("/mach-loop-timer/color-red", 1, 0.6);}, 0.2);

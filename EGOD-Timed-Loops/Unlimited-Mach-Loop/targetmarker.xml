@@ -11,7 +11,7 @@ props.globals.initNode("/mach-loop-timer/maxid", 0, "INT");
 
 var root = cmdarg();
 var rootindex = root.getIndex();
-var markerPath = "/ai/models/aircraft["~ rootindex ~"]/";
+var markerPath = "/ai/models/ship["~ rootindex ~"]/";
 var id = getprop("/mach-loop-timer/maxid");
 var waypointPath = "/mach-loop-timer/waypoint[" ~ id ~ "]/";
 setprop("/mach-loop-timer/maxid", id+1);

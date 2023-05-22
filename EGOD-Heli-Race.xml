@@ -49,7 +49,7 @@ loop.stop();
 loop = nil;
     </unload>
   </nasal>
-    <entry>
+    <entry><type>ship</type>
 	<name>Start-Marker</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/startmarker.xml</model>
 	    <latitude type="double">52.80920644</latitude>
@@ -57,7 +57,7 @@ loop = nil;
 	  <altitude type="double">111</altitude>
 	  <heading type="double">76</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
     <callsign>Start</callsign>
 	<name>Start</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker-inactive.xml</model>
@@ -66,7 +66,7 @@ loop = nil;
 	  <altitude type="double">111</altitude>
 	  <heading type="double">76</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>1</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.8074764</latitude>
@@ -74,7 +74,7 @@ loop = nil;
 	  <altitude type="double">90.1</altitude>
 	  <heading type="double">140</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>2</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.80659392</latitude>
@@ -82,7 +82,7 @@ loop = nil;
 	  <altitude type="double">98.9</altitude>
 	  <heading type="double">157.9</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>3</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.80692972</latitude>
@@ -90,7 +90,7 @@ loop = nil;
 	  <altitude type="double">103.8</altitude>
 	  <heading type="double">8</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>4</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.80807439</latitude>
@@ -98,7 +98,7 @@ loop = nil;
 	  <altitude type="double">104.4</altitude>
 	  <heading type="double">60</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>5</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.81110927</latitude>
@@ -106,7 +106,7 @@ loop = nil;
 	  <altitude type="double">99.8</altitude>
 	  <heading type="double">79.3</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>6</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.81471236</latitude>
@@ -114,7 +114,7 @@ loop = nil;
 	  <altitude type="double">93.2</altitude>
 	  <heading type="double">80</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>7</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.81656075</latitude>
@@ -122,7 +122,7 @@ loop = nil;
 	  <altitude type="double">90</altitude>
 	  <heading type="double">128</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>8</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.81778921</latitude>
@@ -130,7 +130,7 @@ loop = nil;
 	  <altitude type="double">87.9</altitude>
 	  <heading type="double">148</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>9</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.81863778</latitude>
@@ -138,7 +138,7 @@ loop = nil;
 	  <altitude type="double">88.5</altitude>
 	  <heading type="double">0</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>10</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.8181527</latitude>
@@ -146,7 +146,7 @@ loop = nil;
 	  <altitude type="double">87.6</altitude>
 	  <heading type="double">20</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>11</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.81756525</latitude>
@@ -154,7 +154,7 @@ loop = nil;
 	  <altitude type="double">87.9</altitude>
 	  <heading type="double">16</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>12</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker.xml</model>
 	    <latitude type="double">52.81748982</latitude>
@@ -162,7 +162,7 @@ loop = nil;
 	  <altitude type="double">87.2</altitude>
 	  <heading type="double">20</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
     <callsign>Finish</callsign>
 	<name>Finish</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/targetmarker-inactive.xml</model>
@@ -171,7 +171,7 @@ loop = nil;
 	  <altitude type="double">108.3</altitude>
 	  <heading type="double">20</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>Finish-Marker</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/finishmarker.xml</model>
 	    <latitude type="double">52.81662515</latitude>
@@ -179,7 +179,7 @@ loop = nil;
 	  <altitude type="double">108.3</altitude>
 	  <heading type="double">200</heading>
   </entry>
-  <entry>
+  <entry><type>ship</type>
 	<name>Exit02</name>
 	  <model type="string">AI/EGOD-Timed-Loops/Heli-Race/lineupmarker.xml</model>
 	    <latitude type="double">52.81187409</latitude>
