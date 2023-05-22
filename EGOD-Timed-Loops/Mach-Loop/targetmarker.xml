@@ -11,7 +11,7 @@ props.globals.initNode("/mach-loop-timer/maxid", 0, "INT");
 
 var root = cmdarg();
 var rootindex = root.getIndex();
-var markerPath = "/ai/models/aircraft["~ rootindex ~"]/";
+var markerPath = "/ai/models/ship["~ rootindex ~"]/";
 var id = getprop("/mach-loop-timer/maxid");
 var waypointPath = "/mach-loop-timer/waypoint[" ~ id ~ "]/";
 setprop("/mach-loop-timer/maxid", id+1);
@@ -111,7 +111,7 @@ var listenStarttime = setlistener("/mach-loop-timer/starttime",
 distLoop.restart(10*rand());
 ]]>
     </load>
-    <unload>
+    <unload><![CDATA[
 settimer(func {
 	setprop(waypointPath~"loaded", 0);
 	var wayptsNode = props.globals.getNode("/mach-loop-timer");
@@ -125,7 +125,7 @@ settimer(func {
 	distLoop.stop();
 	distLoop = nil;
 }, 0.8*rand());
-    </unload>
+    ]]></unload>
   </nasal>
  
 
@@ -160,6 +160,10 @@ settimer(func {
     </emission>
   </animation>
 
-  
+  <animation>
+    <type>material</type>
+    <enable-hot type="bool">false</enable-hot>
+    <object-name>marker1</object-name>
+  </animation>  
  
 </PropertyList>

@@ -10,7 +10,7 @@ screen.log.write("Mach Loop finish loaded");
 
 var root = cmdarg();
 var rootindex = root.getIndex();
-var markerPath = "/ai/models/aircraft["~ rootindex ~"]/";
+var markerPath = "/ai/models/ship["~ rootindex ~"]/";
 
 var greenFlash = func {
 	settimer(func{interpolate("/mach-loop-timer/color-red", 1, 0.6);}, 0.2);
@@ -128,12 +128,12 @@ var listenStarttime = setlistener("/mach-loop-timer/starttime",
 distLoop.start();
 ]]>
     </load>
-    <unload>
+    <unload><![CDATA[
 screen.log.write("Mach Loop finish unloaded");
 removelistener(listenStarttime);
 distLoop.stop();
 distLoop = nil;
-    </unload>
+    ]]></unload>
   </nasal>
 
   
@@ -167,7 +167,11 @@ distLoop = nil;
   </animation>
 
  
-
+<animation>
+    <type>material</type>
+    <enable-hot type="bool">false</enable-hot>
+    <object-name>marker1</object-name>
+  </animation>  
   
  
 </PropertyList>

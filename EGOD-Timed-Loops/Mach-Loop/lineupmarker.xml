@@ -57,6 +57,12 @@
     </emission>
   </animation>
 
-  
+  <animation>
+    <type>material</type>
+    <enable-hot type="bool">false</enable-hot>
+    <object-name>marker1</object-name>
+    <object-name>marker2</object-name>
+    <object-name>marker3</object-name>
+  </animation>  
  
 </PropertyList>

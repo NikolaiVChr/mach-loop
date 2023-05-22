@@ -41,6 +41,10 @@ props.globals.initNode("/mach-loop-timer/color-green", 0.35, "DOUBLE");
     </emission>
   </animation>
 
-  
+  <animation>
+    <type>material</type>
+    <enable-hot type="bool">false</enable-hot>
+    <object-name>marker1</object-name>
+  </animation> 
  
 </PropertyList>
